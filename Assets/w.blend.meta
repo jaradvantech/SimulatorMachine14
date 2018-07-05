@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: c0df1ae9700356c4595d69217064bc1e
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Shape_IndexedFaceSet_1011
+    100002: Shape_IndexedFaceSet_1015
+    100004: Shape_IndexedFaceSet_1687
+    100006: Shape_IndexedFaceSet_1743
+    100008: Shape_IndexedFaceSet_1875
+    100010: Shape_IndexedFaceSet_1880
+    100012: Shape_IndexedFaceSet_1891
+    100014: Shape_IndexedFaceSet_1969
+    100016: Shape_IndexedFaceSet_895
+    100018: Shape_IndexedFaceSet_900
+    100020: //RootNode
+    400000: Shape_IndexedFaceSet_1011
+    400002: Shape_IndexedFaceSet_1015
+    400004: Shape_IndexedFaceSet_1687
+    400006: Shape_IndexedFaceSet_1743
+    400008: Shape_IndexedFaceSet_1875
+    400010: Shape_IndexedFaceSet_1880
+    400012: Shape_IndexedFaceSet_1891
+    400014: Shape_IndexedFaceSet_1969
+    400016: Shape_IndexedFaceSet_895
+    400018: Shape_IndexedFaceSet_900
+    400020: //RootNode
+    2100000: Shape_904
+    2100002: Shape_893
+    2100004: Shape_935
+    2100006: Shape_955
+    2100008: Shape_1745
+    2100010: Shape_1882
+    2100012: Shape_1015
+    2100014: Shape_930
+    2100016: Shape_900
+    2100018: Shape_892
+    2300000: Shape_IndexedFaceSet_1011
+    2300002: Shape_IndexedFaceSet_1015
+    2300004: Shape_IndexedFaceSet_1687
+    2300006: Shape_IndexedFaceSet_1743
+    2300008: Shape_IndexedFaceSet_1875
+    2300010: Shape_IndexedFaceSet_1880
+    2300012: Shape_IndexedFaceSet_1891
+    2300014: Shape_IndexedFaceSet_1969
+    2300016: Shape_IndexedFaceSet_895
+    2300018: Shape_IndexedFaceSet_900
+    3300000: Shape_IndexedFaceSet_1011
+    3300002: Shape_IndexedFaceSet_1015
+    3300004: Shape_IndexedFaceSet_1687
+    3300006: Shape_IndexedFaceSet_1743
+    3300008: Shape_IndexedFaceSet_1875
+    3300010: Shape_IndexedFaceSet_1880
+    3300012: Shape_IndexedFaceSet_1891
+    3300014: Shape_IndexedFaceSet_1969
+    3300016: Shape_IndexedFaceSet_895
+    3300018: Shape_IndexedFaceSet_900
+    4300000: Shape_IndexedFaceSet_1969
+    4300002: Shape_IndexedFaceSet_1891
+    4300004: Shape_IndexedFaceSet_1880
+    4300006: Shape_IndexedFaceSet_1875
+    4300008: Shape_IndexedFaceSet_1743
+    4300010: Shape_IndexedFaceSet_1687
+    4300012: Shape_IndexedFaceSet_1015
+    4300014: Shape_IndexedFaceSet_1011
+    4300016: Shape_IndexedFaceSet_900
+    4300018: Shape_IndexedFaceSet_895
+    7400000: Default Take
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

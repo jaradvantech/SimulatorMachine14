@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: 2d8ce92df2b70734fb644e0f4b1c5209
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: AuxiliaryStructure
+    100002: EndOfLineSensor
+    100004: EndOfLineSensor2
+    100006: FixedCylinder
+    100008: Guides
+    100010: Motor
+    100012: PhotoSensors
+    100014: Structure
+    100016: //RootNode
+    400000: AuxiliaryStructure
+    400002: EndOfLineSensor
+    400004: EndOfLineSensor2
+    400006: FixedCylinder
+    400008: Guides
+    400010: Motor
+    400012: PhotoSensors
+    400014: Structure
+    400016: //RootNode
+    2100000: Shape_2249
+    2100002: Shape_235
+    2100004: Shape_508
+    2100006: Shape_245
+    2100008: Shape_259
+    2100010: Shape_069
+    2100012: Shape_2202
+    2100014: Shape_128
+    2300000: AuxiliaryStructure
+    2300002: EndOfLineSensor
+    2300004: EndOfLineSensor2
+    2300006: FixedCylinder
+    2300008: Guides
+    2300010: Motor
+    2300012: PhotoSensors
+    2300014: Structure
+    3300000: AuxiliaryStructure
+    3300002: EndOfLineSensor
+    3300004: EndOfLineSensor2
+    3300006: FixedCylinder
+    3300008: Guides
+    3300010: Motor
+    3300012: PhotoSensors
+    3300014: Structure
+    4300000: Motor
+    4300002: Guides
+    4300004: EndOfLineSensor2
+    4300006: PhotoSensors
+    4300008: EndOfLineSensor
+    4300010: AuxiliaryStructure
+    4300012: Structure
+    4300014: FixedCylinder
+    7400000: Default Take
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -11,7 +11,7 @@ public class ConveyorLine : MonoBehaviour {
     public int HighSpeedCounterLineValue = 0;
     public int HighSpeedCounterLineByte;
 
-    public float desiredspeed = 0.7f;
+    public float desiredspeed = 0.3f;
     public float visualSpeedScalar = 1;
 
     private Vector3 forcedirection;
@@ -35,13 +35,13 @@ public class ConveyorLine : MonoBehaviour {
         // Scroll texture to fake it moving
         if (ConveyorLineMotorValue)
         {
-            if (HighSpeedCounterLineValue + (int)(2 * 2048 * (Time.deltaTime * desiredspeed) / 0.942f) < 100000)
+            if (HighSpeedCounterLineValue + (int)(2048 * (Time.deltaTime * desiredspeed) / 0.942f) < 100000)
             {
-                HighSpeedCounterLineValue = HighSpeedCounterLineValue + (int)(2048 * (Time.deltaTime * desiredspeed) / 0.942f);
+                HighSpeedCounterLineValue = HighSpeedCounterLineValue + (int)(2048 * (Time.deltaTime * desiredspeed * 2) / 0.942f);
             }
             else
             {
-                HighSpeedCounterLineValue = HighSpeedCounterLineValue + (int)(2048 * (Time.deltaTime * desiredspeed) / 0.942f) - 100000;
+                HighSpeedCounterLineValue = HighSpeedCounterLineValue + (int)(2048 * (Time.deltaTime * desiredspeed * 2) / 0.942f) - 100000;
             }
 
             m_LineVariables_script.SetIntDec(HighSpeedCounterLineByte, HighSpeedCounterLineValue); // We set the encoder value

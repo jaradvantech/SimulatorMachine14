@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Sharp7;
+using Newtonsoft.Json.Linq;
+using System.IO;
+
 public class connexionPLC : MonoBehaviour {
 
     //Need to function
@@ -54,7 +57,14 @@ public class connexionPLC : MonoBehaviour {
         //Initialize client
         Plc14 = new S7Client();
         //Connect to the PLC
-        Connected = PlcConnect("192.168.1.199", 0, 1);
+
+        StreamReader streamReader = new StreamReader(Application.dataPath + "/Config.txt");
+        
+        JObject obj = JObject.Parse(streamReader.ReadToEnd().ToString());
+
+        string PLCIP = (string) obj["PLCIP"];
+        Connected = PlcConnect(PLCIP, 0, 1);
+        streamReader.Close();
     }
 	
 	// Update is called once per frame
